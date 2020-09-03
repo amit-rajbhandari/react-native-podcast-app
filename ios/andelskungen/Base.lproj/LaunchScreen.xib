@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="KN7-sn-dTt">
+                    <rect key="frame" x="119" y="96" width="242" height="232"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.10196078431372549" green="0.23529411764705882" blue="0.41568627450980389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KN7-sn-dTt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="96" id="HQ6-D2-edu"/>
+                <constraint firstAttribute="bottom" secondItem="KN7-sn-dTt" secondAttribute="bottom" constant="152" id="STY-12-0ho"/>
+                <constraint firstAttribute="trailing" secondItem="KN7-sn-dTt" secondAttribute="trailing" constant="119" id="YbI-hW-6d5"/>
+                <constraint firstItem="KN7-sn-dTt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="119" id="d5H-XO-31F"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="690.8203125" y="418.59443631039528"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SplashIcon" width="299.5" height="352.5"/>
+    </resources>
+</document>

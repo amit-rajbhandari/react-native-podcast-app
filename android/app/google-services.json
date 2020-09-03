@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460329129752",
+    "firebase_url": "https://andelskung.firebaseio.com",
+    "project_id": "andelskung",
+    "storage_bucket": "andelskung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460329129752:android:fdb142aae564f99a31706d",
+        "android_client_info": {
+          "package_name": "com.cninfotech.andelskungen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460329129752-9cgkkineek93achnsbd7r14obbsmtrn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPuQdxNKlh2UGkQHJSrL1rlo6NPBMs8Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460329129752-9cgkkineek93achnsbd7r14obbsmtrn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
